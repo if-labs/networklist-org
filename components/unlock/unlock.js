@@ -207,22 +207,22 @@ function MyComponent(props) {
         let display = name;
         let descriptor = ''
         if (name === 'MetaMask') {
-          url = '/connectors/icn-metamask.svg'
+          url = './connectors/icn-metamask.svg'
           descriptor= 'Connect to your MetaMask wallet'
         } else if (name === 'WalletConnect') {
-          url = '/connectors/walletConnectIcon.svg'
+          url = './connectors/walletConnectIcon.svg'
           descriptor= 'Scan with WalletConnect to connect'
         } else if (name === 'TrustWallet') {
-          url = '/connectors/trustWallet.png'
+          url = './connectors/trustWallet.png'
           descriptor= 'Connect to your TrustWallet'
         } else if (name === 'Portis') {
-          url = '/connectors/portisIcon.png'
+          url = './connectors/portisIcon.png'
           descriptor= 'Connect with your Portis account'
         } else if (name === 'Fortmatic') {
-          url = '/connectors/fortmaticIcon.png'
+          url = './connectors/fortmaticIcon.png'
           descriptor= 'Connect with your Fortmatic account'
         } else if (name === 'Ledger') {
-          url = '/connectors/icn-ledger.svg'
+          url = './connectors/icn-ledger.svg'
           descriptor= 'Connect with your Ledger Device'
         } else if (name === 'Squarelink') {
           url = '/connectors/squarelink.png'
